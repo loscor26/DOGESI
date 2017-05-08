@@ -1,0 +1,19 @@
+{
+  "name": "DOGESI",
+  "scripts": {
+    "postdeploy": "bin/setup",
+    "pr-predestroy": "bin/setup"
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
